@@ -64,6 +64,8 @@ footer {
     background-color: #007bff;
     color: #fff;
 
+    /* fixed formating issue with bottom */
+
     position: absolute;
     
     width: 100%;
