@@ -3,11 +3,13 @@ body {
   color: #333;
   margin: 0;
   font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  
 }
 
 img {
     max-width: 100%;
-    display: block;
+    display: flex;
+    padding: 1px;
 }
 
 .logo {
@@ -23,15 +25,34 @@ img {
   max-width: 980px;
 }
 
-nav {
+@media screen and (max-width: 1080px){
+  
+}nav {
   overflow: hidden;
   position: fixed;
   width: 100%;
-top: sticky;
+  background-color: #000;
+  padding: .5em;
+  top: 6%;
+
+
+}
+
+@media screen and (min-width: 1080px){
+  
+}nav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
   background-color: #000;
   padding: .5em;
 
+  top: 8%;
+
+
 }
+
+
 
 nav ul {
   margin: 0;
@@ -50,6 +71,7 @@ nav a {
 }
 
 .photos {
+ 
   display: flex;
   flex-wrap: wrap;
   grid-template-columns: repeat(2,25vw);
@@ -62,4 +84,8 @@ nav a {
     float: left;
     width: 200px;
     padding-right: 20px;
+}
+
+aside {
+  float: left;
 }
