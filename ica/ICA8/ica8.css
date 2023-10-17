@@ -1,0 +1,38 @@
+body{
+    background-color: khaki;
+}
+#box1{
+    width: 25vw;
+    height: 20vh;
+    background-color: indianred;
+    transition-duration: 2s;
+    animation: 1s;
+}
+
+
+#box2{
+    width: 25vw;
+    height:20vh;
+    position: relative;
+    background-color: orangered;
+    animation-name: box2move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: cubic-bezier(cubic-bezier(0.755, 0.05, 0.855, 0.06));
+}
+
+
+#box1:hover {
+
+background-color: purple;
+
+}
+
+@keyframes box2move{
+
+    from {top:15vw; left: 0vw;}
+    to {bottom:0vw; left:15vw;}
+    
+
+}
