@@ -34,6 +34,8 @@
 
 
 #event {
+    display: flex;
+    
     border: 2%;
     border-color: white;
     padding: 2%;
@@ -44,6 +46,14 @@
      
  
  }
+
+ #event:hover{
+ 
+    transition: 2s ease-out 100ms;
+    background-color: red;
+
+}
+
  
 
 
@@ -107,5 +117,20 @@ p{
         flex-direction: column;
          padding: 2vw;
      }
+
+     #event {
+        display: flex;
+        min-height: 15vw;
+        border: 2%;
+        border-color: white;
+        padding: 2%;
+        
+         background-color: darkred;
+         color: white;
+        
+         
+     
+     }
+    
 
 }
