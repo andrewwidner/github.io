@@ -33,7 +33,7 @@
 
 
 
-#event {
+.event {
     display: flex;
     
     border: 2%;
@@ -100,7 +100,7 @@ p{
    
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 400px){
 
     #title {
    
