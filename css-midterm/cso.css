@@ -1,29 +1,16 @@
-@media screen and (max-width: 1080px){
-  
-}nav {
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  background-color: #000;
-  padding: .5em;
-  top: 6%;
 
 
-}
 
-@media screen and (min-width: 1080px){
-  
-}nav {
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  background-color: #000;
-  padding: .5em;
 
-  top: 8%;
-
+#title {
+   padding: 2%;
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
+
 
 h1{
     display: flex;
@@ -33,12 +20,14 @@ h1{
 }
 
 h2{
+    padding: 2%;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
  
 }
 h3{
+    
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -54,17 +43,31 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-article{
-    padding: 1vw;
-    width: 25vw;
+
+
+.list{
+   
+   display: grid;
+   grid-template-columns: 30vw 30vw 30vw;
+   
 }
 
+@media screen and (max-width: 400px){
 
-
-#artciles {
-    display: flexbox;
-    grid-template-rows: repeat(2,25vw);
-    grid-template-columns: repeat(3,25vw);
+    #title {
+   
+        display: flex;
+        background-color: purple;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
     
-    border: 1vw;
+    }
+  
+    .list{
+   
+        display: flex;
+        flex-direction: column;
+         padding: 2vw;
+     }
+
 }
