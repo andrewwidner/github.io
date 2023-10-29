@@ -33,11 +33,25 @@
  
  }
 
+ box {
+   
+ }
+
+ box:hover {
+    transition: .5s ease-out 100ms;
+    background-color: gray;
+    color: white;
+    border-color: blue;
+    padding: 5%;
+
+    
+ }
+
+
 
 
 event {
     display: flex;
- 
     height: auto;
     border: 2%;
     border-color: white;
@@ -48,13 +62,6 @@ event {
      
  
  }
-
- event:hover{
- 
-    transition: 2s ease-out 100ms;
-    background-color: red;
-
-}
 
  
 
