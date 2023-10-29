@@ -11,6 +11,41 @@
 
 }
 
+#caption {
+    padding: 2%;
+     background-color: darkgreen;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     
+ 
+ }
+
+ #bottom {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+     background-color: gray;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+
+ 
+ }
+
+
+
+#event {
+    border: 2%;
+    border-color: white;
+    padding: 2%;
+    
+     background-color: darkred;
+     color: white;
+    
+     
+ 
+ }
+ 
+
 
 h1{
     display: flex;
@@ -20,7 +55,7 @@ h1{
 }
 
 h2{
-    padding: 2%;
+ 
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
@@ -39,6 +74,8 @@ h4 {
 }
 
 
+
+
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -48,7 +85,8 @@ p{
 .list{
    
    display: grid;
-   grid-template-columns: 30vw 30vw 30vw;
+   gap: 1vw;
+   grid-template-columns: repeat(3, 1fr);
    
 }
 
