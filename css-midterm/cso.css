@@ -102,12 +102,24 @@ p{
    
 }
 
+@media screen and (max-width: 800px){
+
+    .list{
+   
+        display: grid;
+        gap: 1vw;
+        grid-template-columns: repeat(2, 1fr);
+        
+     }
+
+}
+
 @media screen and (max-width: 400px){
 
     #title {
    
         display: flex;
-        background-color: purple;
+        background-color: darkorchid;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
     
