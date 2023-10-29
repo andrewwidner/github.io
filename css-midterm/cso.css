@@ -2,7 +2,7 @@
 
 
 
-#title {
+title {
    padding: 2%;
     display: flex;
     background-color: darkblue;
@@ -11,7 +11,7 @@
 
 }
 
-#caption {
+caption {
     padding: 2%;
      background-color: darkgreen;
      color: white;
@@ -20,7 +20,7 @@
  
  }
 
- #bottom {
+ bottom {
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -33,7 +33,7 @@
 
 
 
-.event {
+event {
     display: flex;
     
     border: 2%;
@@ -47,7 +47,7 @@
  
  }
 
- #event:hover{
+ event:hover{
  
     transition: 2s ease-out 100ms;
     background-color: red;
