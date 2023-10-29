@@ -2,7 +2,8 @@
 
 
 
-title {
+#title {
+   
    padding: 2%;
     display: flex;
     background-color: darkblue;
@@ -11,16 +12,17 @@ title {
 
 }
 
-caption {
+#caption {
     padding: 2%;
      background-color: darkgreen;
      color: white;
      font-family: Arial, Helvetica, sans-serif;
+     gap: 1vw;
      
  
  }
 
- bottom {
+ #bottom {
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -35,13 +37,13 @@ caption {
 
 event {
     display: flex;
-    
+ 
+    height: auto;
     border: 2%;
     border-color: white;
     padding: 2%;
-    
-     background-color: darkred;
-     color: white;
+    background-color: darkred;
+    color: white;
     
      
  
@@ -118,7 +120,7 @@ p{
          padding: 2vw;
      }
 
-     #event {
+     event {
         display: flex;
         min-height: 15vw;
         border: 2%;
