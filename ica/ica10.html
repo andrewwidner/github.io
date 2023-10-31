@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+button {
+  font-family: "helvetica neue", helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  text-align: center;
+  border: 2px solid red;
+  background-color: gray
+  color: rgb(100 0 0 / 1);
+  box-shadow: 1px 1px 2px rgb(0 0 200 / 0.4);
+  border-radius: 10px;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+button2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  text-align: center;
+  border: 2px solid black;
+  background-color: rgb(0 217 217 / 0.6);
+  color: rgb(100 0 0 / 1);
+  border-radius: 10px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+
+
+
+</style>
+<body>
+
+    <div id="red">This text turns red! Push the button</div>
+    <button type="button">Hey there! I'm a button</button>
+    <br>
+    <div id="bigText">This text gets bigger! Push the button</div>
+    <button2 type="button2">Hey there! I'm another button</button2>
+
+
+
+
+
+
+<script>
+
+const button = document.querySelector("button");
+button.addEventListener("click", changeColor);
+
+const button2 = document.querySelector("button2");
+button2.addEventListener("click", changeSize);
+
+
+
+function changeColor(){
+
+    var color = document.getElementById("red");
+    red.style.color = "red";
+}
+
+function changeSize(){
+
+var size = document.getElementById("bigText");
+bigText.style.fontSize = "x-large";
+}
+
+</script>
+
+
+    
+</body>
+</html>
