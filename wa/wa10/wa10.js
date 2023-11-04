@@ -11,7 +11,7 @@ const storyText = "It was 94 fahrenheit outside, so Bob went for a walk. When th
 
 const insertX = ["Fart Lester", "Aeternus", "Grace", "Andy", "Bikey"];
 
-const insertY = ["the UMC","Creekside","Hallet","Elmhurst"];
+const insertY = ["the UMC","Creekside","Hallett","Elmhurst"];
 
 const insertZ = ["did a back flip","biked to denver","played the trombone","Took the RTD"];
 
