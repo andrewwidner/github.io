@@ -9,7 +9,7 @@ function randomValueFromArray(array){
 
 const storyText = "It was 94 fahrenheit outside, so Bob went for a walk. When they got to :inserty:, they stared in awe for a few moments, then :insertz:.— :insertx: picked up a rock that weighs 300 pounds, and it was really heavy. Then, :insertx: met up with Joe biden, and they got ice cream. After all, it was a really hot day! After everything, :insertx: and Bob walked back to :inserty:, and took a nap.";
 
-const insertX = ["Fart Lester", "Aeternus", "Grace", "Andy", "Bikey"];
+const insertX = ["Fart Lester", "Aeternus", "Grace the Face", "Andy", "Bikey"];
 
 const insertY = ["the UMC","Creekside","Hallett","Elmhurst"];
 
