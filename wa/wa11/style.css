@@ -1,6 +1,9 @@
 h1 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
+  background-color: darkred;
+  color: white;
+  border-radius: 50%;
 }
 
 body {
@@ -11,8 +14,8 @@ body {
 .full-img {
   position: relative;
   display: block;
-  width: 640px;
-  height: 480px;
+  width: auto;
+  height: auto;
 }
 
 .overlay {
@@ -25,12 +28,13 @@ body {
 }
 
 button {
-  border: 0;
-  background: rgba(150,150,150,0.6);
-  text-shadow: 1px 1px 1px white;
+  border: 2px;
+  background: blue;
+  color: white;
+  text-shadow: 1px 1px 1px black;
   border: 1px solid #999;
   position: absolute;
-  cursor: pointer;
+  cursor: crosshair;
   top: 2px;
   left: 2px;
 }
@@ -39,5 +43,5 @@ button {
   display: block;
   width: 20%;
   float: left;
-  cursor: pointer;
+  cursor:cell;
 }

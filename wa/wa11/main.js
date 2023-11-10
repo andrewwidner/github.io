@@ -5,11 +5,11 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-const images = ["images/pic1.jpg", 
-                "images/pic2.jpg", 
-                "images/pic3.jpg", 
-                "images/pic4.jpg", 
-                "images/pic5.jpg"]
+const images = ["images/img1.png", 
+                "images/img2.png", 
+                "images/img3.png", 
+                "images/img4.png", 
+                "images/img5.png"]
 
 
                 
@@ -22,7 +22,7 @@ const altText = {
     "image5": "either moth or Butterfly"
 }
 
-console.log(altText["image4"])
+console.log(altText["img4"])
 
 /* Looping through images */
 
@@ -51,12 +51,12 @@ function darken() {
 
     if(btn.getAttribute("class") === "dark"){
         btn.setAttribute("class", "light");
-        btn.textContent = "Lighten";
+        btn.textContent = "Darken";
         overlay.style.backgroundColor = "rgba(0,0,0,.1)";
     }
     else {
         btn.setAttribute("class", "dark");
-        btn.textContent = "Darken";
+        btn.textContent = "Lighten";
         overlay.style.backgroundColor = "rgba(0,0,0,.8)";
 
     }
