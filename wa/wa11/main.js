@@ -15,11 +15,11 @@ const images = ["images/img1.png",
                 
 /* Declaring the alternative text for each image file */
 const altText = {
-    "image1": "A persons eye", 
-    "image2": "just rock",
-    "image3": "some flowers",
-    "image4": "old paintings",
-    "image5": "either moth or Butterfly"
+    "image1": "A camera lens", 
+    "image2": "Estes park",
+    "image3": "Canyonlands",
+    "image4": "my mountain picture",
+    "image5": "our lovely president"
 }
 
 console.log(altText["img4"])
