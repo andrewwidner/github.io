@@ -14,6 +14,7 @@ const images = ["images/img1.png",
 
                 
 /* Declaring the alternative text for each image file */
+/*this is a comment to check if the update worked*/
 const altText = {
     "image1": "A camera lens", 
     "image2": "Estes park",
