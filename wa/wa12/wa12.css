@@ -1,0 +1,59 @@
+body {
+  background-color: gray;
+    font-family: helvetica, sans-serif;
+    width: 350px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  div {
+    padding-bottom: 20px;
+    
+  }
+
+  div.joke{
+    visibility: hidden;
+    background: darkgreen;
+    color: white;
+    border: black;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  div.joke:hover {
+    width: 244px;
+    height: 244px;
+    background-image: url("knee-slap.gif");
+    color: transparent;
+    padding: 0;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+   
+  }
+
+  p {
+    align: center;
+    background: navy;
+    color: white;
+    border: black;
+    border-radius: 10px;
+    padding: 10px;
+    visibility: hidden;
+  }
+
+  p:hover {
+    transition: .5s ease-out 100ms;
+    background-color: darkred;
+    color: white;
+    border-color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5%;
+
+    
+ }
+
