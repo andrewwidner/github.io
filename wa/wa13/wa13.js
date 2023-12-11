@@ -77,6 +77,7 @@ let HR = {
     }
     livingWage();
 
+    
     // Question 6
     const wfh = ["Anna", "Sam"];
     for (let i = 0; i < HR["employees"].length; i++) {

@@ -1,7 +1,29 @@
 
+body {
+    background-color: gray;
+      font-family: helvetica, sans-serif;
+   
+    }
 
+h1 {
+    color: white;
+font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
+background-color: black;
+border-style: solid;
+border-radius: 2vw;
+padding: 2vw;
+border-color: gold;
+}
 
+h3 {
+color: white;
+padding: 2vw;
+}
 
+p {
+    color: lightgray;
+    font-size: xx-small;
+}
 
 input {
     display:inline;
@@ -9,9 +31,26 @@ input {
 }
 
 div.numbers{
+    padding: 2vw;
     visibility: hidden;
     align: center;
-    background: white;
-    color: black;
+  
+    color: white;
     border: black;
   }
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  
+ #bottom {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+     background-color: black;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+
+ 
+ }
