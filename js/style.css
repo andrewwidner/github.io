@@ -1,0 +1,17 @@
+
+
+
+
+
+input {
+    display:inline;
+    width: 2vw;
+}
+
+div.numbers{
+    visibility: hidden;
+    align: center;
+    background: white;
+    color: black;
+    border: black;
+  }
