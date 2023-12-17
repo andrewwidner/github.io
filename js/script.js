@@ -49,7 +49,7 @@ function screwUpTheNumbers() {
     number10 = 5 - number10;
 
  
-    numbersHolder.textContent = "Thank you for submitting your number! Let's relay it back to you real quick." + "\n" + "We got: 1+ (" +  number1 + " " + number2 + " " + number3 + ") " + number4 + " " + number5 + " " + number6 + "  " + number7+ " " + number8+ " " + number9+ " " + number10 + "\n" + "If that is incorrect, PLEASE hit the reset button and go through the whole thing again. Also, please don't click the button again without resetting, unless you want some really big numbers"; 
+    numbersHolder.textContent = "Thank you for submitting your number! Let's relay it back to you real quick." + "\n" + "We got: 1+ (" +  number1 + " " + number2 + " " + number3 + ") " + number4 + " " + number5 + " " + number6 + "  " + number7 + " " + number8+ " " + number9+ " " + number10 + "\n" + "If that is incorrect, PLEASE hit the reset button and go through the whole thing again. Also, please don't click the button again without resetting, unless you want some really big numbers"; 
     numbersHolder.style.visibility = 'visible';
     reset.style.visibility = 'visible';
     console.log(numbersHolder);
