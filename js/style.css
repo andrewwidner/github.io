@@ -12,7 +12,7 @@ body {
 /* had trouble getting this element to go across the entire top */
 
 h1 {
-    font-size: x-large;
+    font-size: auto;
     margin: 0;
     padding: 0;
     bottom: 0;
@@ -29,8 +29,9 @@ padding: 1vw;
 }
 
 p {
+
     padding: 1vw;
-    font-size: small;
+    font-size: medium;
 }
 
 input {
@@ -49,8 +50,12 @@ div.numbers{
   button {
     /* was able to take this color from a CU boulder site, looks super realistic */
     background-color: #cfb87c;
+
+    font-family: inherit;
     font-size: large;
     padding: 1vw;
+    margin-left: 2vw;
+  
 
   }
 
@@ -67,7 +72,7 @@ button:hover {
     position: fixed;
     bottom: 0;
     left: 0;
-    font-size: x-large;
+    font-size: auto;
     text-align: center; 
     background-color: black;
     color: white;
@@ -82,5 +87,5 @@ button:hover {
     display: block;
     margin-left: 1vw;
     align-content: center;
-    width: 20%;
+    width: auto;
  }
