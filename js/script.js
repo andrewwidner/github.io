@@ -9,6 +9,7 @@ var number8 = Number(prompt("Come on we dont have all day enter the eighth numbe
 var number9 = Number(prompt("Enter the ninth number of your phone number:"));
 var number10 = Number(prompt("COULD YOU BE ANY SLOWER Enter the tenth number of your phone number:"));
 
+
 const feedback = prompt("Please leave some brief feedback on our phone system. We will be SURE to read it");
 //we wont
 
@@ -19,9 +20,10 @@ numbersHolder.textContent = 'temp value';
 
 
 const sound = new Audio();
-const button = document.querySelector('button');
-button.addEventListener('click', screwUpTheNumbers);
-button.addEventListener('click', screwUpTheNumbers);
+const chaos = document.getElementById("chaos");
+chaos.addEventListener('click', screwUpTheNumbers);
+
+
 
 
 function screwUpTheNumbers() {
@@ -47,10 +49,13 @@ function screwUpTheNumbers() {
     number10 = 5 - number10;
 
  
-    numbersHolder.textContent = "Thank you for submitting your number! Let's relay it back to you real quick." + "\n" + "We got: 1+ (" + number1 + " " + number2 + " " + number3 + ") " + number4 + " " + number5 + " " + number6 + "  " + number7+ " " + number8+ " " + number9+ " " + number10 + "\n" + "If that is incorrect, PLEASE reload the page and go through the whole thing again. Also, please don't click the button again without resetting, our servers will fry :(("; 
+    numbersHolder.textContent = "Thank you for submitting your number! Let's relay it back to you real quick." + "\n" + "We got: 1+ (" +  number1 + " " + number2 + " " + number3 + ") " + number4 + " " + number5 + " " + number6 + "  " + number7+ " " + number8+ " " + number9+ " " + number10 + "\n" + "If that is incorrect, PLEASE hit the reset button and go through the whole thing again. Also, please don't click the button again without resetting, unless you want some really big numbers"; 
     numbersHolder.style.visibility = 'visible';
     reset.style.visibility = 'visible';
     console.log(numbersHolder);
+
+
+    
    
 }
 

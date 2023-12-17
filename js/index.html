@@ -8,6 +8,7 @@
 </head>
 <body>
 
+  <!-- photoshopped this, pretty happy with how crappy it looks -->
   <img src="BUCOULDER.png" alt="fake CU logo" >
   
 
@@ -17,7 +18,11 @@
     
    
     
-      <button class="chaos">Click here for us to process your phone number</button>
+      <button id="chaos">Click here for us to process your phone number</button>
+      <!-- had to use onlick for this button to work, couldn't get it to work with event listeners in JS without the page continually resetting -->
+      <button onClick= "window.location.reload();" >Click here to reset</button>
+      
+
       <div class="numbers"></div>
 
     
